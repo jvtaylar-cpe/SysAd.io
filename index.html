@@ -1,0 +1,731 @@
+
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="application-name" content="&nbsp;"/>
+<meta name="msapplication-TileColor" content="#FFFFFF" />
+<meta name="msapplication-TileImage" content="assets/favicon/mstile-144x144.png" />
+<base href="./">
+
+<link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+
+<link href="/landing/css/slides.min.css" rel="stylesheet" type="text/css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="/landing/js/slides.min.js?507341" type="text/javascript"></script>
+
+
+
+
+
+<script src="/landing/js/custom.js?1669429643"></script>
+
+<!-- Fonts -->
+<link rel="preconnect" href="https://rsms.me/">
+<link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+
+<!-- Favicon -->
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/landing/assets/favicon/apple-touch-icon-144x144.png" />
+<link rel="apple-touch-icon-precomposed" sizes="152x152" href="/landing/assets/favicon/apple-touch-icon-152x152.png" />
+<link rel="icon" type="image/png" href="/landing/assets/favicon/favicon-32x32.png" sizes="32x32" />
+<link rel="icon" type="image/png" href="/landing/assets/favicon/favicon-16x16.png" sizes="16x16" />
+    <title>Static Website Hosting - Static.app</title>
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144x144.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="/apple-touch-icon-152x152.png" />
+    <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16" />
+    <meta name="application-name" content="&nbsp;"/>
+    <meta name="msapplication-TileColor" content="#FFFFFF" />
+    <meta name="msapplication-TileImage" content="mstile-144x144.png" />
+    <meta name="description" content="All-in-one solution to host HTML websites online. Free, fast, simple, and most affordable static website hosting."/>
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Static Website Hosting - Static.app" />
+    <meta property="og:description" content="All-in-one solution to host HTML websites online. Free, fast, simple, and most affordable static website hosting." />
+    <meta property="og:url" content="https://static.app" />
+    <meta property="og:site_name" content="Static.app" />
+    <meta property="og:image" content="https://static.app/assets/images/static-social.jpg" />
+    <meta property="og:image:secure_url" content="https://static.app/assets/images/static-social.jpg" />
+    <meta property="og:image:width" content="1920" />
+    <meta property="og:image:height" content="1080" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:description" content="All-in-one solution to host HTML websites online. Free, fast, simple, and most affordable static website hosting." />
+    <meta name="twitter:title" content="Static Website Hosting - Static.app"" />
+    <meta name="twitter:site" content="@getstaticapp" />
+    <meta name="twitter:image" content="https://static.app/assets/images/static-social.jpg" />
+
+    <meta name="csrf-token" content="UiViLFtcW6L2VSS7xSijzFhcI3m26ar0EtsM5rrB">
+</head>
+<body class="slides scroll noPreload whiteSlide">
+
+<svg id="customSvgLibrary" xmlns="http://www.w3.org/2000/svg" style="display:none">
+    <symbol id="menu" viewBox="0 0 18 18"><path d="M16 5h-14c-.6 0-1-.4-1-1 0-.5.4-1 1-1h14c.5 0 1 .4 1 1s-.4 1-1 1zm-14 5h14c.5 0 1-.4 1-1 0-.5-.4-1-1-1h-14c-.6 0-1 .4-1 1s.4 1 1 1zm14 3h-14c-.5 0-1 .4-1 1 0 .5.4 1 1 1h14c.5 0 1-.4 1-1s-.4-1-1-1z"></path></symbol>
+    <symbol id="logo-static-light" viewBox="0 0 106 25"><path d="M11.1562 11.043C10.9624 8.77592 9.10547 7.39631 6.0032 7.39631C2.90092 7.39631 0.924716 8.74609 0.939631 11.043C0.924716 12.8029 2.05078 13.9364 4.3402 14.3615L6.33878 14.7418C7.28587 14.9283 7.7184 15.2266 7.73331 15.7337C7.7184 16.3079 7.07706 16.6882 6.14489 16.6882C5.10831 16.6882 4.40732 16.2408 4.25071 15.4055L0.648793 15.495C0.909801 17.7621 2.85618 19.2163 6.12997 19.2163C9.19496 19.2163 11.4247 17.6875 11.4396 15.331C11.4247 13.6605 10.321 12.6687 8.03906 12.2287L5.83168 11.8111C4.86222 11.6172 4.54901 11.2741 4.55646 10.8342C4.54901 10.2525 5.22763 9.89453 6.07031 9.89453C7.03232 9.89453 7.70348 10.4091 7.80788 11.1325L11.1562 11.043ZM19.2806 7.54545H17.2149V4.80114H13.5682V7.54545H12.0543V10.2301H13.5682V15.8008C13.5458 18.12 15.0522 19.2834 17.625 19.1641C18.505 19.1193 19.1389 18.9403 19.4894 18.8359L18.9375 16.2035C18.7809 16.2408 18.4155 16.3153 18.1396 16.3153C17.5504 16.3153 17.2149 16.0767 17.2149 15.3981V10.2301H19.2806V7.54545ZM23.9502 19.1939C25.5461 19.1939 26.6498 18.5749 27.2762 17.4041H27.3657V19H30.7961V11.2145C30.7961 8.79084 28.6409 7.39631 25.7251 7.39631C22.6452 7.39631 20.9001 8.94744 20.6093 11.0355L23.9726 11.1548C24.1292 10.424 24.7332 9.97656 25.6952 9.97656C26.5901 9.97656 27.1569 10.4091 27.1569 11.1772V11.2145C27.1569 11.9155 26.3962 12.0646 24.4424 12.2362C22.1232 12.43 20.1842 13.2876 20.1842 15.8232C20.1842 18.0902 21.7577 19.1939 23.9502 19.1939ZM25.0763 16.8075C24.2336 16.8075 23.637 16.4048 23.637 15.6442C23.637 14.9059 24.2187 14.4585 25.2553 14.3018C25.9339 14.2049 26.7691 14.0558 27.1793 13.8395V14.9283C27.1793 16.0469 26.2396 16.8075 25.0763 16.8075ZM39.0714 7.54545H37.0057V4.80114H33.3591V7.54545H31.8452V10.2301H33.3591V15.8008C33.3367 18.12 34.8431 19.2834 37.4159 19.1641C38.2958 19.1193 38.9297 18.9403 39.2802 18.8359L38.7284 16.2035C38.5718 16.2408 38.2064 16.3153 37.9304 16.3153C37.3413 16.3153 37.0057 16.0767 37.0057 15.3981V10.2301H39.0714V7.54545ZM56.3805 19.2163C59.6021 19.2163 61.6007 17.3445 61.6977 14.5107H58.2896C58.1554 15.7262 57.4246 16.3899 56.4253 16.3899C55.1426 16.3899 54.3074 15.3086 54.3074 13.2727C54.3074 11.2518 55.1501 10.1705 56.4253 10.1705C57.4693 10.1705 58.1479 10.8789 58.2896 12.0497H61.6977C61.6156 9.23082 59.5574 7.39631 56.3731 7.39631C52.7712 7.39631 50.5936 9.79758 50.5936 13.31C50.5936 16.8075 52.7562 19.2163 56.3805 19.2163Z" fill="white"/><path d="M65.1946 19.2163C66.2163 19.2163 67.1187 18.3512 67.1336 17.2773C67.1187 16.2184 66.2163 15.3608 65.1946 15.3608C64.1208 15.3608 63.2408 16.2184 63.2557 17.2773C63.2408 18.3512 64.1208 19.2163 65.1946 19.2163ZM72.3514 19.1939C73.9472 19.1939 75.0509 18.5749 75.6773 17.4041H75.7668V19H79.1972V11.2145C79.1972 8.79084 77.042 7.39631 74.1262 7.39631C71.0463 7.39631 69.3013 8.94744 69.0104 11.0355L72.3737 11.1548C72.5303 10.424 73.1344 9.97656 74.0964 9.97656C74.9913 9.97656 75.558 10.4091 75.558 11.1772V11.2145C75.558 11.9155 74.7974 12.0646 72.8435 12.2362C70.5243 12.43 68.5854 13.2876 68.5854 15.8232C68.5854 18.0902 70.1589 19.1939 72.3514 19.1939ZM73.4774 16.8075C72.6347 16.8075 72.0381 16.4048 72.0381 15.6442C72.0381 14.9059 72.6198 14.4585 73.6564 14.3018C74.335 14.2049 75.1702 14.0558 75.5804 13.8395V14.9283C75.5804 16.0469 74.6408 16.8075 73.4774 16.8075ZM81.007 23.2955H84.6537V17.1431H84.7282C85.1906 18.2021 86.2197 19.1641 87.9498 19.1641C90.4853 19.1641 92.5287 17.1804 92.5287 13.2802C92.5287 9.23828 90.366 7.39631 87.9722 7.39631C86.16 7.39631 85.1682 8.45526 84.7282 9.50675H84.6164V7.54545H81.007V23.2955ZM84.5791 13.2727C84.5791 11.4009 85.3546 10.245 86.6895 10.245C88.0393 10.245 88.785 11.4308 88.785 13.2727C88.785 15.1222 88.0393 16.3228 86.6895 16.3228C85.3546 16.3228 84.5791 15.1296 84.5791 13.2727ZM94.0196 23.2955H97.6663V17.1431H97.7408C98.2032 18.2021 99.2323 19.1641 100.962 19.1641C103.498 19.1641 105.541 17.1804 105.541 13.2802C105.541 9.23828 103.379 7.39631 100.985 7.39631C99.1727 7.39631 98.1808 8.45526 97.7408 9.50675H97.629V7.54545H94.0196V23.2955ZM97.5917 13.2727C97.5917 11.4009 98.3673 10.245 99.7021 10.245C101.052 10.245 101.798 11.4308 101.798 13.2727C101.798 15.1222 101.052 16.3228 99.7021 16.3228C98.3673 16.3228 97.5917 15.1296 97.5917 13.2727Z" fill="white" fill-opacity="0.5"/><g clip-path="url(#clip0)"><path fill-rule="evenodd" clip-rule="evenodd" d="M46.625 10.6837L51 5.55555L44.5384 5.55554L41.3125 11.2535C41.2725 11.2554 41.2946 11.2856 41.3125 11.2535L43.8499 11.0969L41.625 15.0787L44.125 14.9573L41.006 20.3021C40.9798 20.3487 41.0451 20.3928 41.0877 20.3576L48.1875 14.4896L46 14.6724L49.3643 10.5903L46.625 10.6837Z" fill="#27AE60"/></g><defs><clipPath id="clip0"><rect width="10" height="14.8148" fill="white" transform="translate(41 5.55554)"/></clipPath></defs></symbol>
+    <symbol id="logo-static-dark" viewBox="0 0 106 25"><path d="M11.1562 11.043C10.9624 8.77592 9.10547 7.39631 6.0032 7.39631C2.90092 7.39631 0.924716 8.74609 0.939631 11.043C0.924716 12.8029 2.05078 13.9364 4.3402 14.3615L6.33878 14.7418C7.28587 14.9283 7.7184 15.2266 7.73331 15.7337C7.7184 16.3079 7.07706 16.6882 6.14489 16.6882C5.10831 16.6882 4.40732 16.2408 4.25071 15.4055L0.648793 15.495C0.909801 17.7621 2.85618 19.2163 6.12997 19.2163C9.19496 19.2163 11.4247 17.6875 11.4396 15.331C11.4247 13.6605 10.321 12.6687 8.03906 12.2287L5.83168 11.8111C4.86222 11.6172 4.54901 11.2741 4.55646 10.8342C4.54901 10.2525 5.22763 9.89453 6.07031 9.89453C7.03232 9.89453 7.70348 10.4091 7.80788 11.1325L11.1562 11.043ZM19.2806 7.54545H17.2149V4.80114H13.5682V7.54545H12.0543V10.2301H13.5682V15.8008C13.5458 18.12 15.0522 19.2834 17.625 19.1641C18.505 19.1193 19.1389 18.9403 19.4894 18.8359L18.9375 16.2035C18.7809 16.2408 18.4155 16.3153 18.1396 16.3153C17.5504 16.3153 17.2149 16.0767 17.2149 15.3981V10.2301H19.2806V7.54545ZM23.9502 19.1939C25.5461 19.1939 26.6498 18.5749 27.2762 17.4041H27.3657V19H30.7961V11.2145C30.7961 8.79084 28.6409 7.39631 25.7251 7.39631C22.6452 7.39631 20.9001 8.94744 20.6093 11.0355L23.9726 11.1548C24.1292 10.424 24.7332 9.97656 25.6952 9.97656C26.5901 9.97656 27.1569 10.4091 27.1569 11.1772V11.2145C27.1569 11.9155 26.3962 12.0646 24.4424 12.2362C22.1232 12.43 20.1842 13.2876 20.1842 15.8232C20.1842 18.0902 21.7577 19.1939 23.9502 19.1939ZM25.0763 16.8075C24.2336 16.8075 23.637 16.4048 23.637 15.6442C23.637 14.9059 24.2187 14.4585 25.2553 14.3018C25.9339 14.2049 26.7691 14.0558 27.1793 13.8395V14.9283C27.1793 16.0469 26.2396 16.8075 25.0763 16.8075ZM39.0714 7.54545H37.0057V4.80114H33.3591V7.54545H31.8452V10.2301H33.3591V15.8008C33.3367 18.12 34.8431 19.2834 37.4159 19.1641C38.2958 19.1193 38.9297 18.9403 39.2802 18.8359L38.7284 16.2035C38.5718 16.2408 38.2064 16.3153 37.9304 16.3153C37.3413 16.3153 37.0057 16.0767 37.0057 15.3981V10.2301H39.0714V7.54545ZM56.3805 19.2163C59.6021 19.2163 61.6007 17.3445 61.6977 14.5107H58.2896C58.1554 15.7262 57.4246 16.3899 56.4253 16.3899C55.1426 16.3899 54.3074 15.3086 54.3074 13.2727C54.3074 11.2518 55.1501 10.1705 56.4253 10.1705C57.4693 10.1705 58.1479 10.8789 58.2896 12.0497H61.6977C61.6156 9.23082 59.5574 7.39631 56.3731 7.39631C52.7712 7.39631 50.5936 9.79758 50.5936 13.31C50.5936 16.8075 52.7562 19.2163 56.3805 19.2163Z" fill="#333333"/><path d="M65.1946 19.2163C66.2163 19.2163 67.1187 18.3512 67.1336 17.2773C67.1187 16.2184 66.2163 15.3608 65.1946 15.3608C64.1208 15.3608 63.2408 16.2184 63.2557 17.2773C63.2408 18.3512 64.1208 19.2163 65.1946 19.2163ZM72.3514 19.1939C73.9472 19.1939 75.0509 18.5749 75.6773 17.4041H75.7668V19H79.1972V11.2145C79.1972 8.79084 77.042 7.39631 74.1262 7.39631C71.0463 7.39631 69.3013 8.94744 69.0104 11.0355L72.3737 11.1548C72.5303 10.424 73.1344 9.97656 74.0964 9.97656C74.9913 9.97656 75.558 10.4091 75.558 11.1772V11.2145C75.558 11.9155 74.7974 12.0646 72.8435 12.2362C70.5243 12.43 68.5854 13.2876 68.5854 15.8232C68.5854 18.0902 70.1589 19.1939 72.3514 19.1939ZM73.4774 16.8075C72.6347 16.8075 72.0381 16.4048 72.0381 15.6442C72.0381 14.9059 72.6198 14.4585 73.6564 14.3018C74.335 14.2049 75.1702 14.0558 75.5804 13.8395V14.9283C75.5804 16.0469 74.6408 16.8075 73.4774 16.8075ZM81.007 23.2955H84.6537V17.1431H84.7282C85.1906 18.2021 86.2197 19.1641 87.9498 19.1641C90.4853 19.1641 92.5287 17.1804 92.5287 13.2802C92.5287 9.23828 90.366 7.39631 87.9722 7.39631C86.16 7.39631 85.1682 8.45526 84.7282 9.50675H84.6164V7.54545H81.007V23.2955ZM84.5791 13.2727C84.5791 11.4009 85.3546 10.245 86.6895 10.245C88.0393 10.245 88.785 11.4308 88.785 13.2727C88.785 15.1222 88.0393 16.3228 86.6895 16.3228C85.3546 16.3228 84.5791 15.1296 84.5791 13.2727ZM94.0196 23.2955H97.6663V17.1431H97.7408C98.2032 18.2021 99.2323 19.1641 100.962 19.1641C103.498 19.1641 105.541 17.1804 105.541 13.2802C105.541 9.23828 103.379 7.39631 100.985 7.39631C99.1727 7.39631 98.1808 8.45526 97.7408 9.50675H97.629V7.54545H94.0196V23.2955ZM97.5917 13.2727C97.5917 11.4009 98.3673 10.245 99.7021 10.245C101.052 10.245 101.798 11.4308 101.798 13.2727C101.798 15.1222 101.052 16.3228 99.7021 16.3228C98.3673 16.3228 97.5917 15.1296 97.5917 13.2727Z" fill="#BDBDBD"/><g clip-path="url(#clip0)"><path fill-rule="evenodd" clip-rule="evenodd" d="M46.625 10.6837L51 5.55555L44.5384 5.55554L41.3125 11.2535C41.2725 11.2554 41.2946 11.2856 41.3125 11.2535L43.8499 11.0969L41.625 15.0787L44.125 14.9573L41.006 20.3021C40.9798 20.3487 41.0451 20.3928 41.0877 20.3576L48.1875 14.4896L46 14.6724L49.3643 10.5903L46.625 10.6837Z" fill="#27AE60"/></g><defs><clipPath id="clip0"><rect width="10" height="14.8148" fill="white" transform="translate(41 5.55554)"/></clipPath></defs></symbol>
+    <symbol id="close" viewBox="0 0 18 18"><path d="M1 1L17 17M17 1L1 17" stroke="#ffffff"/></symbol>
+    <symbol id="close-black" viewBox="0 0 18 18"><path d="M1 1L17 17M17 1L1 17" stroke="#1D1D1D"/></symbol>
+    <symbol id="upload" viewBox="0 0 20 18"><path d="M10 17.9972V8.08057" stroke="white" stroke-width="1.5" stroke-miterlimit="10"/><path d="M13.132 11.3187L10.0015 8.08057L6.87109 11.3187" stroke="white" stroke-width="1.5" stroke-miterlimit="10"/><path d="M13.1304 13.9524C13.1304 13.9524 15.083 13.9524 15.087 13.9524C17.247 13.9524 19 12.139 19 9.90476C19 7.67048 17.247 5.85714 15.087 5.85714C15.083 5.85714 15.0752 5.85714 15.0713 5.85714C14.8717 3.14119 12.6765 1 10 1C7.19043 1 4.91304 3.35571 4.91304 6.2619V7.07143C4.91304 7.07143 4.33 7.07143 4.32609 7.07143C2.55348 7.07143 1.11348 8.50429 1.01174 10.3095V10.3095C1.00526 12.3195 2.63287 13.9524 4.64288 13.9524H6.86957" stroke="white" stroke-width="1.5" stroke-miterlimit="10"/></symbol>
+    <symbol id="icon-1" viewBox="0 0 60 60"><path d="M0.337502 29.6323C-1.78847 12.2793 6.10798 3.26896 24.6343 0.26564C43.1607 -2.73768 64.2085 20.3698 59.2693 37.0257C54.895 51.7771 44.7813 60 26.7601 60C17.3393 60 2.46348 46.9853 0.337502 29.6323Z" fill="#E0EFEF"/><path d="M34.5294 43.0014H24.4706C22.0006 43.0014 20 40.9779 20 38.4796V27.1753H39V38.4796C39 40.9779 36.9994 43.0014 34.5294 43.0014Z" stroke="#1D1D1D" stroke-width="1.5" stroke-miterlimit="10"/><path d="M23.915 27.1739V22.6522C23.915 19.5322 26.4186 17 29.5033 17C32.588 17 35.0915 19.5322 35.0915 22.6522V27.1739" stroke="#1D1D1D" stroke-width="1.5" stroke-miterlimit="10"/><path d="M29.5048 37.9119C29.1527 37.9119 28.8509 37.6689 28.7727 37.3298L27.873 34.2889C27.6327 33.2489 28.4318 32.2598 29.5048 32.2598C30.5777 32.2598 31.3768 33.2489 31.1365 34.2889L30.2368 37.3298C30.1586 37.6689 29.8568 37.9119 29.5048 37.9119Z" fill="#1D1D1D"/></symbol>
+    <symbol id="icon-2" viewBox="0 0 60 60"><path d="M0.355876 41.2223C-1.93343 22.6023 6.8179 9.03207 26.739 1.52092C46.66 -5.99022 64.3621 15.8388 59.0435 33.7108C54.3332 49.5392 48.5778 60 29.1721 60C19.0275 60 2.64518 59.8423 0.355876 41.2223Z" fill="#E0EFEF"/><path d="M29 43C36.1797 43 42 37.1797 42 30C42 22.8203 36.1797 17 29 17C21.8203 17 16 22.8203 16 30C16 37.1797 21.8203 43 29 43Z" stroke="black" stroke-width="1.5" stroke-miterlimit="10"/><path d="M16 30H42" stroke="black" stroke-width="1.5" stroke-miterlimit="10"/><path d="M19.1865 21.4307C20.6222 22.3124 22.6061 23.7933 29.01 23.7933C35.4139 23.7933 37.0983 22.3576 38.7826 21.4307" stroke="black" stroke-width="1.5" stroke-miterlimit="10"/><path d="M38.9298 38.3935C37.4942 37.5117 35.3577 35.9065 28.9537 35.9065C22.5498 35.9065 20.7242 37.4213 19.0342 38.3539" stroke="black" stroke-width="1.5" stroke-miterlimit="10"/><path d="M29.1041 43C32.1414 43 34.6036 37.1797 34.6036 30C34.6036 22.8203 32.1414 17 29.1041 17C26.0667 17 23.6045 22.8203 23.6045 30C23.6045 37.1797 26.0667 43 29.1041 43Z" stroke="black" stroke-width="1.5" stroke-miterlimit="10"/></symbol>
+    <symbol id="icon-3" viewBox="0 0 60 60"><path d="M0.46822 30.577C-1.8175 39.3417 4.60601 51.2048 12.3352 55.6084C20.0644 60.0121 43.7202 62.948 52.2301 55.1449C63.6621 44.6624 61.6452 14.3333 51.6055 10.49C41.5658 6.64674 40.2569 4.3933 32.3998 1.14188C24.5426 -2.10954 11.6276 1.62504 9.05619 11.8034C6.48476 21.9818 2.75393 21.8123 0.46822 30.577Z" fill="#E0EFEF"/><path d="M38 38L46 30L38 22" stroke="black" stroke-width="1.5" stroke-miterlimit="10"/><path d="M22 38L14 30L22 22" stroke="black" stroke-width="1.5" stroke-miterlimit="10"/><path d="M27 41L33 19" stroke="black" stroke-width="1.5"/></symbol>
+    <symbol id="icon-4" viewBox="0 0 60 60"><path d="M29.957 0.470643C21.0332 -1.8269 8.95485 4.62985 4.47125 12.399C-0.0123458 20.1682 -3.00146 43.9465 4.94323 52.5004C15.616 63.9916 45.8166 60.9595 51.2467 52.251C56.6768 43.5425 58.7131 38.1834 59.7313 28.4701C60.7494 18.7568 59.2341 9.61853 48.871 7.03379C38.508 4.44905 38.8807 2.76819 29.957 0.470643Z" fill="#E0EFEF"/><path d="M38.1304 42H19.8696C17.1791 42 15 39.8332 15 37.1579V19H24.7391L27.1739 22.6316H43V37.1579C43 39.8332 40.8209 42 38.1304 42Z" stroke="#1D1D1D" stroke-width="1.5" stroke-miterlimit="10"/><path d="M33.5 32L26.5 36V28L33.5 32Z" fill="#1D1D1D"/></symbol>
+    <symbol id="disignmodo" viewBox="0 0 25 25"><path d="M8.33333 13.4333C9.52075 13.4333 10.4833 12.4707 10.4833 11.2833C10.4833 10.0959 9.52075 9.13334 8.33333 9.13334C7.14592 9.13334 6.18333 10.0959 6.18333 11.2833C6.18333 12.4707 7.14592 13.4333 8.33333 13.4333Z" fill="#333333"/><path d="M12.5 0C5.6 0 0 5.6 0 12.5C0 19.4 5.6 25 12.5 25C19.4 25 25 19.4 25 12.5C25 5.6 19.4 0 12.5 0ZM3.91667 11.3C3.91667 8.86667 5.9 6.88334 8.33333 6.88334C10.7667 6.88334 12.75 8.86667 12.75 11.3C12.75 13.7333 10.7667 15.7167 8.33333 15.7167C5.9 15.7167 3.91667 13.7333 3.91667 11.3ZM13.0667 20.2167C11.6833 20.2167 10.35 19.8333 9.18333 19.1L10.3333 17.25C11.15 17.7667 12.1 18.0333 13.0667 18.0333C14.0333 18.0333 14.9833 17.7667 15.7833 17.25L16.9333 19.1C15.7833 19.8333 14.4333 20.2167 13.0667 20.2167ZM14.8833 12.3833V10.2H21.5833V12.3833H14.8833Z" fill="#333333"/></symbol>
+    <symbol id="chat" viewBox="0 0 21 21"><path d="M10 1C14.9696 1 19 5.03043 19 10C19 11.6278 18.5657 13.1578 17.8065 14.4726L19 18.9257L14.59 17.7439C13.2439 18.5422 11.6748 19 10 19C5.03043 19 1 14.9696 1 10C1 5.03043 5.02652 1 10 1Z" stroke="white" stroke-width="2" stroke-miterlimit="10"/><path d="M6.09384 9.60889C6.09384 11.7689 7.84688 13.5219 10.0069 13.5219C12.1669 13.5219 13.9199 11.7689 13.9199 9.60889" stroke="white" stroke-width="2" stroke-miterlimit="10"/></symbol>
+    <symbol id="uploading" viewBox="0 0 23 7"><circle cx="2.5" cy="4.5" r="2.5" fill="#27AE60"/><circle cx="11.5" cy="2.5" r="2.5" fill="#27AE60"/><circle cx="20.5" cy="3.5" r="2.5" fill="#27AE60"/></symbol>
+    <symbol id="blue" viewBox="0 0 50 50"><path d="M0.281252 24.6935C-1.49039 10.2327 5.08998 2.72413 20.5286 0.221367C35.9672 -2.2814 53.507 16.9748 49.3911 30.8548C45.7458 43.1475 37.3177 50 22.3001 50C14.4494 50 2.0529 39.1544 0.281252 24.6935Z" fill="#2F80ED"/></symbol>
+    <symbol id="blue-2" viewBox="0 0 50 50"><path d="M49.7187 24.6935C51.4904 10.2327 44.91 2.72413 29.4714 0.221367C14.0328 -2.2814 -3.50704 16.9748 0.608883 30.8548C4.25415 43.1475 12.6823 50 27.6999 50C35.5506 50 47.9471 39.1544 49.7187 24.6935Z" fill="#2F80ED"/></symbol>
+    <symbol id="green" viewBox="0 0 50 50"><path d="M25.0359 49.6078C32.4723 51.5224 42.5376 46.1418 46.274 39.6675C50.0103 33.1932 52.5012 13.3779 45.8806 6.24963C36.9867 -3.32633 11.8195 -0.799591 7.2944 6.45749C2.7693 13.7146 1.07239 18.1805 0.223934 26.2749C-0.624523 34.3694 0.638229 41.9846 9.27413 44.1385C17.91 46.2925 17.5994 47.6932 25.0359 49.6078Z" fill="#27AE60"/></symbol>
+    <symbol id="green-2" viewBox="0 0 50 50"><path d="M24.9641 0.392203C17.5277 -1.52242 7.46237 3.85821 3.72604 10.3325C-0.0102882 16.8068 -2.50121 36.6221 4.11936 43.7504C13.0133 53.3263 38.1805 50.7996 42.7056 43.5425C47.2307 36.2854 48.9276 31.8195 49.7761 23.7251C50.6245 15.6306 49.3618 8.01544 40.7259 5.86149C32.09 3.70754 32.4006 2.30682 24.9641 0.392203Z" fill="#27AE60"/></symbol>
+    <symbol id="orange" viewBox="0 0 50 50"><path d="M0.296564 15.6481C-1.61119 31.1648 5.68158 42.4733 22.2825 48.7326C38.8834 54.9919 53.6351 36.801 49.203 21.9076C45.2776 8.71732 40.4815 0 24.3101 0C15.8563 0 2.20432 0.131443 0.296564 15.6481Z" fill="#F2994A"/></symbol>
+    <symbol id="orange-2" viewBox="0 0 50 50"><path d="M0.296564 34.3519C-1.61119 18.8352 5.68158 7.52672 22.2825 1.26743C38.8834 -4.99185 53.6351 13.199 49.203 28.0924C45.2776 41.2827 40.4815 50 24.3101 50C15.8563 50 2.20432 49.8686 0.296564 34.3519Z" fill="#F2994A"/></symbol>
+    <symbol id="pink" viewBox="0 0 50 50"><path d="M49.7187 24.6935C51.4904 10.2327 44.91 2.72413 29.4714 0.221367C14.0328 -2.2814 -3.50704 16.9748 0.608883 30.8548C4.25415 43.1475 12.6823 50 27.6999 50C35.5506 50 47.9471 39.1544 49.7187 24.6935Z" fill="#EA3065"/></symbol>
+    <symbol id="twitter" viewBox="0 1 24 23"><path d="M21.5 7.6v.6c0 6.6-5 14.1-14 14.1-2.8 0-5.4-.8-7.6-2.2l1.2.1c2.3 0 4.4-.8 6.1-2.1-2.2 0-4-1.5-4.6-3.4.3.1.6.1.9.1.5 0 .9-.1 1.3-.2-2.1-.6-3.8-2.6-3.8-5 .7.4 1.4.6 2.2.6-1.3-.9-2.2-2.4-2.2-4.1 0-.9.2-1.8.7-2.5 2.4 3 6.1 5 10.2 5.2-.1-.4-.1-.7-.1-1.1 0-2.7 2.2-5 4.9-5 1.4 0 2.7.6 3.6 1.6 1-.3 2.1-.7 3-1.3-.4 1.2-1.1 2.1-2.2 2.7 1-.1 1.9-.4 2.8-.8-.6 1.1-1.4 2-2.4 2.7z"></path></symbol>
+</svg>
+
+<!-- Panel Top #10 -->
+<nav class="panel top main-nav padding-top-3 padding-bottom-3 relative">
+    <div class="sections desktop fix-12-12">
+        <div class="left">
+            <a href="https://static.app" class="logo vertical-top"><svg width="130" height="30"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#logo-static-dark"></use></svg></a>
+            <a href="#features" class="weight-7 p smallest link uppercase shift-down-3 vertical-middle margin-left-2 hideForPhablet">Features</a>
+            <a href="#price"    class="weight-7 p smallest link uppercase shift-down-3 vertical-middle margin-left-2 hideForPhablet">Pricing</a>
+        </div>
+        <div class="right">
+            <a href="https://static.app/login" class="weight-7 button small pale uppercase green rounded flat noShadow margin-right-3">OPEN APP →</a>
+            <a href="https://static.app/signup" class="weight-7 link p smallest uppercase crop">Sign Up</a>
+        </div>
+    </div>
+    <div class="sections compact hidden">
+        <div class="left">
+            <a href="#" class="logo">
+                <svg width="106" height="25">
+                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#logo-static-dark"></use>
+                </svg>
+            </a>
+        </div>
+        <div class="right"><span class="button actionButton sidebarTrigger" data-sidebar-id="1"><svg height="18px" width="18px"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#menu"></use></svg></span></div>
+    </div>
+</nav>
+
+<!-- Sidebar -->
+<nav class="sidebar" data-sidebar-id="1">
+    <div class="close"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#close"></use></svg></div>
+    <div class="content">
+        <a href="#" class="logo">
+            <svg width="106" height="25">
+                <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#logo-static-light"></use>
+            </svg>
+        </a>
+        <ul class="margin-top-3">
+            <li class="padding-bottom-2"><a href="https://static.app">Features</a></li>
+            <li class="padding-bottom-2"><a href="https://static.app">Pricing</a></li>
+            <li class="padding-bottom-2"><a href="https://static.app/help">Help</a></li>
+            <li class="padding-bottom-2"><a href="https://static.app/login">Login</a></li>
+            <li><a href="#">Sign Up</a></li>
+        </ul>
+    </div>
+</nav>
+
+<div id="jsUploadArchive" class="dropzone-previews" data-action="upload.php">
+    <div class="flex verticalCenter horizontalCenter noSpaces center" id="upload-archive-no-file">
+        <div>
+            <img src="/landing/assets/svg/upload.svg" alt="" class="round disable-pointer-events"/>
+            <p class="weight-7 large crop">Drag-n-Drop</p>
+            <p class="opacity-7 crop">to upload your archive</p>
+            <p class="weight-7 crop text-red error"></p>
+        </div>
+    </div>
+    <form action="#" method="POST" class="slides-form white padding-phone-2 padding-3" id="upload-archive-form">
+        <input type="hidden" name="_token" value="UiViLFtcW6L2VSS7xSijzFhcI3m26ar0EtsM5rrB">        <input id="zip-file" type="hidden" name="file">
+
+        <div class="flex noSpaces justify-between margin-bottom-3 verticalCenter">
+            <div class="flex noSpaces verticalCenter">
+                <p class="larger weight-7 title crop">Upload</p>
+                <div class="margin-left-1 uploading-icon">
+                    <dt></dt><dt></dt><dt></dt>
+                </div>
+            </div>
+            <p class="weight-7 crop text-red error"></p>
+            <a id="upload-refresh"><svg width="18" height="18" class="disable-pointer-events"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#close-black"></use></svg></a>
+        </div>
+        <div class="flex noSpaces justify-between margin-bottom-1">
+            <p class="smaller weight-6 crop file-name"></p>
+            <p class="smaller weight-5 crop opacity-5 already-sent"></p>
+        </div>
+        <div class="bar gray rounded">
+            <div class="completed green rounded"></div>
+        </div>
+        <div class="flex noSpaces justify-between margin-top-1">
+            <p class="smaller weight-6 crop progress-percent"></p>
+            <p class="smaller weight-5 crop opacity-5 time-left"></p>
+        </div>
+        <div class="margin-top-5">
+            <div class="flex noSpaces space-between verticalCenter margin-bottom-1">
+                <div class="label opacity-8 weight-5 crop">Free Domain Name<span id="error-domain-name" class="text-red error padding-left-1"></span>
+                </div>
+                <a class="toRight reset-domain opacity-8 text-blue">Try another</a>
+            </div>
+            <div class="margin-bottom-3 relative">
+                <input maxlength="30" type="text" name="domain-name" class="wide js-built-in-domain-input weight-7" placeholder="Domain Name">
+                <div class="js-built-in-domain-text"></div>
+                <div class="text-green js-built-in-domain-status valid"></div>
+            </div>
+
+            <input type="hidden" name="route" value="landing">
+
+                            <div class="label opacity-8 weight-5 margin-bottom-1">Email<span id="error-email" class="text-red error padding-left-1"></span>
+                </div>
+                <input type="email" name="email" class="wide margin-bottom-3" placeholder="your@email.com" value="">
+                <div class="label opacity-8 weight-5 margin-bottom-1">
+                    Full Name<span id="error-username" class="text-red error padding-left-1"></span>
+                </div>
+                <input type="text" name="name" class="wide margin-bottom-3" placeholder="Thomas Anderson" value="">
+
+                <div class="margin-bottom-3 js-show-password">
+                    <div class="label opacity-8 weight-5 margin-bottom-1">
+                        <div>Password<span id="error-password" class="text-red error padding-left-1"></span>
+                        </div>
+                        <span class="js-password-strength opacity-8" id="password-strength-status"></span>
+                    </div>
+                    <input type="password" name="password" id="password" class="wide js-check-password-strength padding-right-3" data-message-id="password-strength-status" value="" placeholder="Password">
+                    <div class="show_password middle">
+                        <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg" class="disable-pointer-events">
+                            <path id="outer_line" d="M9 3C5 3 2 7 1 9C2 11 5 15 9 15C13 15 16 11 17 9C16 7 13 3 9 3Z" stroke="" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path id="inner_dot" fill-rule="evenodd" clip-rule="evenodd" d="M9 12C10.6569 12 12 10.6569 12 9C12 8.69253 11.9537 8.39587 11.8678 8.11659C11.6326 8.63749 11.1087 9 10.5 9C9.67157 9 9 8.32843 9 7.5C9 6.89135 9.36251 6.36736 9.88341 6.13218C9.60413 6.04625 9.30747 6 9 6C7.34315 6 6 7.34315 6 9C6 10.6569 7.34315 12 9 12Z" fill=""/>
+                        </svg>
+                    </div>
+                </div>
+            
+            <div class="margin-bottom-3 checkbox">
+                <label class="crop">
+                    <input id="signup-accept" type="checkbox" name="remember" value="1" class="crop">
+                    <span class="checkbox-icon"></span>
+                    <div>
+                        <p class="weight-5 small margin-bottom-1">I&nbsp;accept <a href="https://static.app/terms" target="_blank" class="underline" tabindex="-1">Terms</a> & <a href="https://static.app/privacy" target="_blank" class="underline" tabindex="-1">Privacy Policy</a></p>
+                        <p class="weight-5 smallest crop opacity-5" style="line-height:1.5">I agree to share my data according to Privacy Policy. <br/>We don’t sell your data and respect your privacy.</p>
+                    </div>
+                </label>
+            </div>
+                            <div class="margin-bottom-3 checkbox">
+                    <label class="crop">
+                        <input type="checkbox" name="remember" value="1" class="crop">
+                        <span class="checkbox-icon"></span>
+                        <div>
+                            <p class="weight-5 small margin-bottom-1">Subscribe for News & Updates</p>
+                            <p class="weight-5 smallest crop opacity-5" style="line-height:1.5">No spam. Related topics only.</p>
+                        </div>
+                    </label>
+                </div>
+                    </div>
+                    <button id="upload-archive-form-register" class="button grey continue rounded" disabled>Continue →</button>
+            <a href="/login" class="button noShadow white opacity-8 margin-left-1 rounded">I have an account</a>
+            </form>
+</div>
+
+    <section class="slide whiteSlide autoHeight">
+        <div class="content">
+            <div class="container">
+                <div class="wrap left padding-top-0 padding-bottom-0">
+                    <div class="fix-12-12">
+
+                        <div class="flex fixedSpaces reverse">
+                            <div class="col-5-12 col-tablet-3-5 col-phablet-1-1 padding-top-phablet-0 padding-top-tablet-5 padding-top-10">
+
+                                <h1 class="boldest largest margin-bottom-3 hover-header bold padding-top-phablet-3" style="line-height: 1.05">One-click solution for your <span class="text-green underline-1 dropdownTrigger" data-dropdown-id="description-dropdown">static<a class="description-dropdown-trigger">?</a></span> website.</h1>
+                                <p class="fix-5-12 toLeft margin-bottom-4 trim large">Drag-n-drop an archive with your page or a website and we will take care of the&nbsp;rest.</p>
+                                <div class="fix-12-12 flex verticalCenter">
+                                    <a class="button green rounded weight-6 cropLeft margin-bottom-phablet-2 js-upload-archive"><svg width="20" height="18" class="margin-right-1"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#upload"></use></svg>Upload for Free</a>
+                                    <a class="button rounded flat noShadow white transparent weight-6 popupTrigger" data-popup-id="video">
+                                        <svg class="padding-right-1 shift-up-2" width="28" height="20" viewBox="0 0 28 20" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M27.4231 3.27855C27.1003 2.07906 26.1546 1.13357 24.9553 0.810575C22.7642 0.210938 13.9997 0.210938 13.9997 0.210938C13.9997 0.210938 5.23545 0.210938 3.04433 0.787717C1.86813 1.1105 0.899349 2.07928 0.576566 3.27855C0 5.46946 0 10.0132 0 10.0132C0 10.0132 0 14.5798 0.576566 16.7479C0.899563 17.9471 1.84505 18.8928 3.04454 19.2158C5.25852 19.8155 13.9999 19.8155 13.9999 19.8155C13.9999 19.8155 22.7642 19.8155 24.9553 19.2387C26.1548 18.9159 27.1003 17.9702 27.4233 16.7709C27.9999 14.5798 27.9999 10.0363 27.9999 10.0363C27.9999 10.0363 28.023 5.46946 27.4231 3.27855Z" fill="#1F2B24"/><path d="M11.209 14.2111L18.4972 10.0134L11.209 5.81567V14.2111Z" fill="white"/></svg>Watch Video</a>
+                                </div>
+                            </div>
+                            <div class=" col-7-12 col-tablet-2-5 col-phablet-1-1"><img src="/landing/assets/svg/image.svg" alt="" class="absolute p-phablet-relative" /></div>
+                        </div>
+
+                        <div class="flex noSpaces margin-top-tablet-4">
+                            <div class="col-tablet-4-5 col-phablet-1-1 toCenter">
+                                <div class=" flex reverse noSpaces margin-top-15 double-pictures">
+                                    <div class="col-5-12 col-tablet-1-1 col-phablet-1-1 pictures-container relative ">
+                                        <svg class="absolute bg-type-1" width="650" height="452" viewBox="0 0 650 451" fill="none" xmlns="http://www.w3.org/2000/svg"> <g clip-path="url(#clip0)"> <path d="M567.492 27.5C592.492 40 614.87 73.786 627.491 100C659.992 167.5 666.064 319.357 555.492 368.5C478.992 402.5 379.493 375 392.992 428C428.992 517.5 580.992 317.5 451.492 357.5C368.022 383.282 314.992 292.5 242.992 293.5C170.992 294.5 125.902 399.246 44.4915 369.5C2.90751 354.305 -23.0075 283 27.992 242" stroke="black" stroke-miterlimit="1.30541" stroke-linecap="round" stroke-dasharray="5 5"/> <circle opacity="0.3" cx="562.992" cy="25" r="25" fill="#27AE60"/> <path fill-rule="evenodd" clip-rule="evenodd" d="M557.487 18.0807C558.124 17.8444 559.382 17.9891 559.713 18.7086C559.996 19.3219 560.239 20.356 560.252 20.1356C560.284 19.6458 560.221 18.5865 560.434 18.0329C560.59 17.6294 560.895 17.2497 561.345 17.1157C561.723 17.0015 562.168 16.9617 562.561 17.0427C562.976 17.1276 563.413 17.4236 563.576 17.705C564.057 18.532 564.065 20.2259 564.087 20.1356C564.172 19.7745 564.18 18.5042 564.463 18.0329C564.65 17.721 565.123 17.4422 565.375 17.3971C565.765 17.3281 566.246 17.3068 566.655 17.3865C566.985 17.4515 567.433 17.8431 567.553 18.0329C567.844 18.4896 568.007 19.7798 568.056 20.2338C568.078 20.421 568.155 19.7121 568.445 19.2568C568.984 18.4086 570.893 18.244 570.965 20.1051C570.999 20.9732 570.991 20.9334 570.991 21.5175C570.991 22.2024 570.975 22.6166 570.938 23.1131C570.898 23.6427 570.784 24.844 570.618 25.4255C570.504 25.825 570.126 26.7237 569.752 27.2627C569.752 27.2627 568.326 28.922 568.171 29.668C568.015 30.4153 568.067 30.4206 568.035 30.949C568.005 31.4786 568.035 32 568.035 32C568.035 32 567.067 32.0929 566.492 32C565.973 31.9177 565.396 31.1043 565.23 30.7883C565.002 30.3529 564.515 30.4366 564.325 30.7578C564.028 31.2662 563.613 31.9164 563.16 31.9735C562.47 32.0601 561.204 32.0361 559.998 32.0149C559.443 32.0051 559.018 31.5326 558.824 31.013C558.746 30.8027 558.631 30.6014 558.462 30.4591C558.057 30.114 557.36 29.4184 556.943 29.052L555.839 27.8295C555.463 27.3516 554.509 26.5963 554.189 25.1945C553.906 23.952 553.934 23.3427 554.238 22.8449C554.546 22.3392 555.127 22.0631 555.371 22.0153C555.647 21.9595 556.29 21.9635 556.533 22.0976C556.829 22.2608 556.948 22.3086 557.181 22.6166C557.486 23.0241 557.595 23.2219 557.463 22.7772C557.363 22.4294 557.036 21.9874 556.887 21.4896C556.743 21.0104 556.355 20.2378 556.383 19.4639C556.393 19.1705 556.52 18.4405 557.487 18.0807Z" fill="white" stroke="#1D1A1A" stroke-linejoin="round"/> <path d="M565.984 27.4867V23.7075" stroke="#1D1A1A" stroke-linecap="round"/> <path d="M563.512 27.5L563.488 23.7056" stroke="#1D1A1A" stroke-linecap="round"/> <path d="M560.992 23.74L561.024 27.4831" stroke="#1D1A1A" stroke-linecap="round"/> </g> <defs> <clipPath id="clip0"> <rect width="650" height="451" fill="white"/> </clipPath> </defs> </svg>
+                                        <img src="/landing/assets/uploads/img-2.jpg" srcset="/landing/assets/uploads/img-2@2x.jpg 2x" alt="" class="absolute img-1 z-index-3"/>
+                                        <img src="/landing/assets/uploads/img-3.jpg" srcset="/landing/assets/uploads/img-3@2x.jpg 2x" alt="" class="absolute img-2 z-index-1"/>
+                                        <img src="/landing/assets/uploads/special-title.png" srcset="/landing/assets/uploads/special-title@2x.png 2x" alt="" class="absolute img-3 z-index-3"/>
+                                    </div>
+                                    <div class="col-2-12"></div>
+                                    <div class="col-5-12 col-tablet-1-1 col-phablet-1-1 padding-top-tablet-4 padding-top-8 padding-bottom-tablet-5 padding-bottom-10">
+                                        <h2 class="boldest large margin-bottom-2 bold">Try it now, it works&nbsp;anywhere.</h2>
+                                        <p class="large margin-bottom-3 padding-right-2">Upload an archive here and go <span class="text-green"><span style="font-size:80%">● </span>live</span>. We’ll unpack it, find and create a URL for each page that’s inside.</p>
+                                        <a href="https://static.app/register" class="button green rounded crop weight-6">Get Started</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <svg class="background" viewBox="0 0 1475 1223" fill="none" xmlns="http://www.w3.org/2000/svg"><path opacity="0.34" d="M647.036 250.461L531.948 115.608C451.48 21.3209 337.009 -21.3419 217.482 11.4927C99.922 43.7867 -16.0854 201.911 2.31138 322.43L58 687.25L92.0663 910.421C124.032 1119.83 325.754 1259.08 532.896 1214.74L541 1213L1326.03 1037.35C1381.45 1024.95 1424.52 981.352 1436.25 925.793L1470.68 762.652C1478.08 727.578 1475.57 691.136 1463.42 657.409L1453.38 629.532C1431.77 569.511 1373.46 530.667 1309.75 533.839L1081.99 545.178C1004.94 549.014 933.006 506.595 899.071 437.311L892.815 424.538C871.101 380.206 833.226 345.88 786.979 328.618L726.351 305.988C695.624 294.519 668.327 275.409 647.036 250.461Z" fill="#E1F5EA"/></svg>
+    </section>
+
+    <!--- learn what's included -->
+    <section class="slide whiteSlide autoHeight" data-name="features">
+        <div class="content">
+            <div class="container">
+                <div class="wrap padding-10 padding-phablet-6"><h3 class="smaller">Learn, what’s included:</h3></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- features -->
+    <section class="slide whiteSlide autoHeight double-pictures">
+        <div class="content">
+            <div class="container">
+                <div class="wrap left padding-top-4 padding-bottom-0">
+                    <div class="fix-12-12">
+
+
+                        <div class="flex noSpaces">
+                            <div class="col-tablet-4-5 col-phablet-1-1 toCenter">
+
+                                <div class="flex verticalCenter reverse">
+                                    <div class="col-5-12 col-tablet-1-1 margin-bottom-tablet-5">
+                                        <h2 class="boldest large margin-bottom-2 bold padding-top-tablet-4">Hosting solution with <span class="italic text-purple relative inlineBlock">benefits<svg class="wide absolute" style="bottom:0;left:0" viewBox="0 0 207 7" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M15.521 4.47698C15.7311 4.24658 16.1523 3.80172 16.3806 3.62814C17.4621 2.80579 18.8135 2.15249 20.2692 1.71391C22.0927 1.16454 25.0313 0.716844 26.8207 1.60271C28.2809 2.32554 28.768 3.89577 28.2246 5.05785L27.8921 5.47882M15.521 4.47698C15.3957 4.61435 15.3455 4.67549 15.4559 4.55745C15.4794 4.53223 15.5011 4.50535 15.521 4.47698ZM15.521 4.47698C15.9147 3.91513 15.5956 2.76927 15.1884 2.30168C13.2651 0.0927193 7.20582 2.10605 5.14948 3.03243C3.72072 3.67607 0.270511 6.36415 1.4169 5.47882M54.7005 5.16971C55.2439 4.00762 54.7567 2.4374 53.2966 1.71457C51.5072 0.828701 48.5686 1.2764 46.7451 1.82577C45.2894 2.26435 43.9375 2.91764 42.856 3.74C42.6278 3.91358 42.2065 4.35844 41.9964 4.58884M54.7005 5.16971L54.368 5.59068M54.7005 5.16971C53.5541 6.05504 57.0048 3.36557 58.4335 2.72193C60.4899 1.79555 66.5492 -0.21778 68.4725 1.99118C68.8796 2.45877 69.1988 3.60463 68.8051 4.16648M41.9964 4.58884C41.8711 4.72621 41.8209 4.78734 41.9313 4.66931C41.9548 4.64408 41.9765 4.61721 41.9964 4.58884ZM41.9964 4.58884C42.3901 4.02698 42.071 2.88113 41.6638 2.41354C39.7405 0.204576 33.6813 2.21791 31.6249 3.14428C30.1962 3.78793 26.746 6.47601 27.8923 5.59068M68.8051 4.16648C69.0152 3.93608 69.4364 3.49123 69.6647 3.31764C70.7462 2.49529 72.0975 1.84199 73.5533 1.40341C75.3768 0.85404 78.3153 0.406345 80.1047 1.29221C81.5649 2.01504 82.052 3.58527 81.5086 4.74735L81.1761 5.16832M68.8051 4.16648C68.6798 4.30385 68.6295 4.36499 68.7399 4.24695C68.7635 4.22173 68.7852 4.19485 68.8051 4.16648ZM95.2805 4.27834C95.4907 4.04794 95.9119 3.60308 96.1402 3.4295C97.2216 2.60714 98.5729 1.95385 100.029 1.51527C101.852 0.965896 104.791 0.518201 106.58 1.40407C108.04 2.1269 108.527 3.69712 107.984 4.85921L107.652 5.28018L107.576 5.45644C106.429 6.34176 109.88 3.65369 111.308 3.01004C113.365 2.08367 119.424 0.0703333 121.347 2.2793C121.754 2.74689 122.074 3.89274 121.68 4.4546M95.2805 4.27834C95.1552 4.41571 95.105 4.47684 95.2154 4.35881C95.239 4.33358 95.2607 4.30671 95.2805 4.27834ZM95.2805 4.27834C95.6742 3.71648 95.3551 2.57063 94.9479 2.10304C93.0246 -0.105924 86.9652 1.90741 84.9089 2.83378C83.4801 3.47743 80.03 6.16551 81.1763 5.28018M121.68 4.4546C121.89 4.22419 122.311 3.77934 122.539 3.60575C123.621 2.7834 124.972 2.1301 126.428 1.69153C128.252 1.14215 131.19 0.694458 132.98 1.58033C134.44 2.30316 134.927 3.87338 134.383 5.03546L134.051 5.45644M121.68 4.4546C121.555 4.59196 121.504 4.6531 121.615 4.53507C121.638 4.50984 121.66 4.48296 121.68 4.4546ZM160.859 5.14732C161.403 3.98524 160.916 2.41501 159.455 1.69218C157.666 0.806315 154.727 1.25401 152.904 1.80338C151.448 2.24196 150.096 2.89526 149.015 3.71761C148.787 3.89119 148.365 4.33605 148.155 4.56645M160.859 5.14732L160.527 5.56829M160.859 5.14732C159.713 6.03265 163.164 3.34319 164.592 2.69954C166.649 1.77317 172.708 -0.240166 174.631 1.9688C175.038 2.43639 175.358 3.58224 174.964 4.1441M148.155 4.56645C148.03 4.70382 147.98 4.76496 148.09 4.64692C148.114 4.6217 148.135 4.59482 148.155 4.56645ZM148.155 4.56645C148.549 4.0046 148.23 2.85875 147.823 2.39115C145.899 0.18219 139.84 2.19552 137.784 3.1219C136.355 3.76554 132.905 6.45362 134.051 5.56829M174.964 4.1441C175.174 3.9137 175.595 3.46884 175.824 3.29525C176.905 2.4729 178.256 1.8196 179.712 1.38103C181.536 0.831654 184.474 0.383959 186.264 1.26983C187.724 1.99266 188.211 3.56288 187.667 4.72497L187.335 5.14594M174.964 4.1441C174.839 4.28147 174.788 4.3426 174.899 4.22457C174.922 4.19934 174.944 4.17246 174.964 4.1441ZM206.188 1.49288C204.732 1.93146 203.38 2.58476 202.299 3.40711C202.071 3.58069 201.649 4.02555 201.439 4.25595M201.439 4.25595C201.314 4.39332 201.264 4.45446 201.374 4.33642C201.398 4.3112 201.419 4.28432 201.439 4.25595ZM201.439 4.25595C201.833 3.6941 201.514 2.54825 201.107 2.08065C199.183 -0.128309 193.124 1.88502 191.068 2.8114C189.639 3.45504 186.189 6.14312 187.335 5.25779" stroke="#6551E0"/></svg></span>.</h2>
+                                        <p class="large margin-bottom-3 trim">Turn your ideas into reality with Static. <br/>With a lot of powerful features, we guarantee simplicity and&nbsp;clarity.</p>
+                                        <a href="https://static.app/register" class="button rounded crop weight-6 purple">Start for Free</a>
+                                    </div>
+                                    <div class="col-1-12"></div>
+                                    <div class="col-6-12 col-tablet-1-1 relative">
+                                        <ul class="flex later">
+                                            <li class="col-6-12">
+                                                <div class="pad rounded padding-3 margin-bottom-2 align-center">
+                                                    <svg class="margin-bottom-2" width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg"> <path opacity="0.1" d="M0.337502 29.6323C-1.78847 12.2793 6.10798 3.26896 24.6343 0.26564C43.1607 -2.73768 64.2085 20.3698 59.2693 37.0257C54.895 51.7771 44.7813 60 26.7601 60C17.3393 60 2.46348 46.9853 0.337502 29.6323Z" fill="#6551E0"/> <path d="M39 39C39 40.6569 37.6569 42 36 42H23.0003C21.3435 42 20.0003 40.6569 20.0003 39.0001L20.0001 30.0001C20 28.3432 21.3432 27 23.0001 27H36C37.6569 27 39 28.3431 39 30V39Z" stroke="#6551E0" stroke-width="1.5" stroke-miterlimit="10"/> <path d="M23.915 27.1746V22.6529C23.915 19.5329 26.4186 17.0007 29.5033 17.0007C32.588 17.0007 35.0915 19.5329 35.0915 22.6529V27.1746" stroke="#6551E0" stroke-width="1.5" stroke-miterlimit="10"/> <path d="M29.5 38C29.1847 38 28.9144 37.785 28.8443 37.485L28.0385 33.795C27.8232 32.875 28.539 32 29.5 32C30.461 32 31.1768 32.875 30.9615 33.795L30.1557 37.485C30.0856 37.785 29.8153 38 29.5 38Z" fill="#6551E0"/> </svg>
+                                                    <div class="free purple round margin-bottom-2">free</div>
+                                                    <p class="large bold margin-bottom-1">SSL Certificate</p>
+                                                    <p class="small opacity-9 crop letter-spacing-0">No hassle of adding https to your website. We provide a free SSL&nbsp;certificate.</p>
+                                                </div>
+
+                                                <div class="pad rounded padding-3 margin-bottom-2 align-center">
+                                                    <svg class="margin-bottom-2" width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg"> <path opacity="0.1" d="M0.46822 30.577C-1.8175 39.3417 4.60601 51.2048 12.3352 55.6084C20.0644 60.0121 43.7202 62.948 52.2301 55.1449C63.6621 44.6624 61.6452 14.3333 51.6055 10.49C41.5658 6.64674 40.2569 4.3933 32.3998 1.14188C24.5426 -2.10954 11.6276 1.62504 9.05619 11.8034C6.48476 21.9818 2.75393 21.8123 0.46822 30.577Z" fill="#6551E0"/> <path d="M38 40L44.5858 33.4142C45.3668 32.6332 45.3668 31.3668 44.5858 30.5858L38 24" stroke="#6551E0" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/> <path d="M22 40L15.4142 33.4142C14.6332 32.6332 14.6332 31.3668 15.4142 30.5858L22 24" stroke="#6551E0" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/> <path d="M27 43L33 21" stroke="#6551E0" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/> </svg>
+                                                    <p class="large bold margin-bottom-1">Code Editor</p>
+                                                    <p class="small opacity-9 crop letter-spacing-0">No need to switch in between tabs&nbsp;anymore. Make changes right&nbsp;here.</p>
+                                                </div>
+                                            </li>
+                                            <li class="col-6-12">
+                                                <div class="pad rounded padding-3 margin-bottom-2 align-center">
+                                                    <svg class="margin-bottom-2" width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg"> <path opacity="0.1" d="M0.355876 41.2223C-1.93343 22.6023 6.8179 9.03207 26.739 1.52093C46.66 -5.99022 64.3621 15.8388 59.0435 33.7108C54.3332 49.5392 48.5778 60 29.1721 60C19.0275 60 2.64518 59.8423 0.355876 41.2223Z" fill="#6551E0"/> <path d="M29.5661 42.9878C36.7389 42.6746 42.2998 36.606 41.9866 29.4331C41.6735 22.2602 35.6048 16.6994 28.432 17.0125C21.2591 17.3257 15.6982 23.3943 16.0114 30.5672C16.3246 37.7401 22.3932 43.301 29.5661 42.9878Z" stroke="#6551E0" stroke-width="1.5" stroke-miterlimit="10"/> <path d="M16.0117 30.5671L42 29" stroke="#6551E0" stroke-width="1.5" stroke-miterlimit="10"/> <path d="M20.3613 20.377C21.654 21.6256 23.4433 23.7258 29.166 23.6814C34.8887 23.637 36.3779 21.576 37.8728 20.2412" stroke="#6551E0" stroke-width="1.5" stroke-miterlimit="10"/> <path d="M20.8196 40.1529C22.0105 39.071 23.7897 37.094 29.0068 37.1944C34.2238 37.2947 35.6746 39.2206 37.0289 40.4152" stroke="#6551E0" stroke-width="1.5" stroke-miterlimit="10"/> <path d="M29 43C31.2029 42.9615 33.8322 37.1057 33.7069 29.9271C33.5816 22.7484 30.8138 16.9999 28.8836 16.9999C27.4538 16.9999 23.4797 22.9248 23.605 30.1034C23.7303 37.282 27 43.0349 29 43Z" stroke="#6551E0" stroke-width="1.5" stroke-miterlimit="10"/> <rect x="14.75" y="23.75" width="28.5" height="13.5" rx="3.25" fill="white" stroke="#6551E0" stroke-width="1.5"/> <path d="M18.7716 32.9999L17.4932 28.0908H19.0624L19.724 31.2357H19.7655L20.4751 28.0908H22.0059L22.7346 31.2133H22.7762L23.4186 28.0908H24.9878L23.7062 32.9999H22.0347L21.2677 30.1395H21.2133L20.4463 32.9999H18.7716Z" fill="#6551E0"/> <path d="M26.5323 32.9999L25.2539 28.0908H26.8232L27.4847 31.2357H27.5263L28.2358 28.0908H29.7667L30.4954 31.2133H30.5369L31.1793 28.0908H32.7486L31.467 32.9999H29.7955L29.0284 30.1395H28.9741L28.207 32.9999H26.5323Z" fill="#6551E0"/> <path d="M34.2931 32.9999L33.0146 28.0908H34.5839L35.2455 31.2357H35.287L35.9965 28.0908H37.5274L38.2561 31.2133H38.2977L38.9401 28.0908H40.5093L39.2277 32.9999H37.5562L36.7892 30.1395H36.7348L35.9678 32.9999H34.2931Z" fill="#6551E0"/> </svg>
+                                                    <p class="large bold margin-bottom-1">Personal Domain</p>
+                                                    <p class="small opacity-9 crop letter-spacing-0">Make sure your brand-new website&nbsp;will be unique and&nbsp;different.</p>
+                                                </div>
+
+                                                <div class="pad rounded padding-3 margin-bottom-2 align-center">
+                                                    <svg class="margin-bottom-2" width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg"> <path opacity="0.1" d="M29.957 0.470643C21.0332 -1.8269 8.95485 4.62985 4.47125 12.399C-0.0123458 20.1682 -3.00146 43.9465 4.94323 52.5004C15.616 63.9916 45.8166 60.9595 51.2467 52.251C56.6768 43.5425 58.7131 38.1834 59.7313 28.4701C60.7494 18.7568 59.2341 9.61853 48.871 7.03379C38.508 4.44905 38.8807 2.76819 29.957 0.470643Z" fill="#6551E0"/> <path d="M43 39C43 41.2091 41.2091 43 39 43H19.0004C16.7913 43 15.0004 41.2092 15.0004 39.0001L15.0001 23.0001C15 20.7909 16.7909 19 19.0001 19H22.7639C24.1343 19 25.3871 19.7743 26 21V21C26.6129 22.2257 27.8657 23 29.2361 23H39C41.2091 23 43 24.7909 43 27L43 39Z" stroke="#6551E0" stroke-width="1.5" stroke-miterlimit="10"/> <path d="M32.6432 31.152C33.2699 31.5437 33.2699 32.4563 32.6432 32.848L27.53 36.0438C26.864 36.46 26 35.9812 26 35.1958V28.8042C26 28.0188 26.864 27.54 27.53 27.9562L32.6432 31.152Z" fill="#6551E0"/> </svg>
+                                                    <div class="free purple round margin-bottom-2">free</div>
+                                                    <p class="large bold margin-bottom-1">Media Storage</p>
+                                                    <p class="small opacity-9 crop letter-spacing-0">Store content for your website right in Static (like images, videos, docs&nbsp;etc.)</p>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+
+
+                                <div class="flex noSpaces margin-top-10 verticalCenter reverse">
+                                    <div class="col-6-12 col-tablet-1-1 col-phablet-1-1 relative pictures-container">
+                                        <img src="/landing/assets/uploads/img-4.svg" alt="" class="wide" style="-webkit-transform:scale(1.106);transform:scale(1.106)" />
+                                    </div>
+                                    <div class="col-1-12 hideForTablet"></div>
+                                    <div class="col-5-12 col-tablet-1-1 col-phablet-1-1 padding-top-phablet-0 padding-top-tablet-4 padding-top-9 padding-bottom-tablet-3 padding-bottom-10">
+                                        <h2 class="boldest large margin-bottom-2 bold padding-top-phablet-4">Manage files in <br class="hideForPhone"><span class="italic text-purple relative inlineBlock">the<svg class="wide absolute" style="bottom:-5px;left:0" viewBox="0 0 89 16" fill="none" xmlns="http://www.w3.org/2000/svg" style=""><g clip-path="url(#clip0)"><path d="M1.43066 4.89587C15.0719 5.40416 32.8926 5.67764 46.5309 5.20138C51.807 5.01713 73.604 4.24353 80.9036 4.02613C82.8033 3.96956 84.8171 3.51013 86.6031 3.90234C87.9666 4.20174 83.7273 4.21316 82.2831 4.32907C77.4572 4.71638 72.6253 5.05901 67.7949 5.41183C54.1836 6.40603 39.4929 7.38097 25.8715 8.45417C21.1023 8.82993 16.3335 9.21604 11.5784 9.6806C8.14331 10.0162 3.96067 10.3547 9.10059 10.5947C26.8018 11.4215 39.5578 11.0748 57.3168 11.3453C61.4183 11.4078 61.4014 11.7428 57.6953 12.3854C55.4955 12.7669 48.734 13.2501 50.992 13.1712C52.4559 13.1201 57.5525 12.0097 56.8789 12.9656" stroke="#6551E0" stroke-miterlimit="0" stroke-linejoin="bevel" class="vaQuqHBA_0"></path></g><defs><clipPath id="clip0"><path width="87" height="12" fill="white" transform="translate(0.817383 4) rotate(-2)" d="M0 0 L87 0 L87 12 L0 12 Z" class="vaQuqHBA_1"></path></clipPath></defs></svg></span> intuitive&nbsp;way.</h2>
+                                        <p class="large margin-bottom-3 padding-right-2">Don’t worry if you missed something. With Static, you can easily manage and edit your files on the&nbsp;fly.</p>
+                                        <a href="https://static.app/register" class="button purple rounded crop weight-6">Try It Now</a>
+                                    </div>
+                                </div>
+
+
+                                <div class="flex noSpaces margin-top-8 verticalCenter reverse">
+                                    <div class="col-5-12">
+                                        <h2 class="boldest large margin-bottom-2 bold padding-top-phablet-4">Collect from <span class="italic text-purple relative inlineBlock">any<svg class="absolute" style="top:-0.06em;left:-.2em;height:120%;width:125%" viewBox="0 0 114 78" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M14.5098 19.6661C11.2265 15.5803 7.23777 10.9001 2.85181 7.99796" stroke="#6551E0" stroke-miterlimit="0" stroke-linejoin="bevel"/><path d="M56.3578 0.834229C56.0684 5.79593 56.4575 10.0591 57.3105 14.8342" stroke="#6551E0" stroke-miterlimit="0" stroke-linejoin="bevel"/><path d="M113.626 6.81988C109.805 10.1097 106.067 13.4716 102.368 17.1802" stroke="#6551E0" stroke-miterlimit="0" stroke-linejoin="bevel"/><path d="M3.31926 69.7823C6.98909 67.0571 10.6406 64.7027 14.0427 60.2487" stroke="#6551E0" stroke-miterlimit="0" stroke-linejoin="bevel"/><path d="M96.6816 62C100.952 66.429 102.988 69.2571 106.351 74" stroke="#6551E0" stroke-miterlimit="0" stroke-linejoin="bevel"/><path d="M55.6406 64.2423C56.4138 67.5175 56.5269 73.3997 55.6406 77.2423" stroke="#6551E0" stroke-miterlimit="0" stroke-linejoin="bevel"/> </svg></span> forms. Just like&nbsp;that.</h2>
+                                        <p class="large margin-bottom-3">Static can display collected data for you. Simply add the <span class="code-highlight">static-form</span> attribute to your existing form to start receiving&nbsp;entries.</p>
+                                        <a href="https://static.app/register" class="button purple rounded crop weight-6">Start Collecting Forms</a>
+                                    </div>
+                                    <div class="col-7-12 relative pictures-container padding-left-3 padding-left-tablet-3">
+                                        
+                                        <img src="/landing/assets/uploads/img-6.svg" class="wide"/>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <svg class="background" viewBox="0 0 1443 1550" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path opacity="0.05" d="M636.547 73.5796C576.693 81.9481 517.161 91.849 459.888 102.404C259.407 139.351 105.11 450.918 185.231 638.37L252.195 795.041C277.482 854.202 279.751 920.677 258.558 981.426L185.75 1190.12C121.685 1373.76 276.123 1559.56 468.378 1530.14L933.061 1459.03C963.442 1454.38 992.749 1444.34 1019.6 1429.38L1270.16 1289.79C1372.12 1232.99 1423.25 1114.81 1394.84 1001.6L1372.55 912.791C1356.46 848.717 1316.42 793.253 1260.66 757.828L1053.51 626.227C993.514 588.109 951.9 526.925 938.493 457.118L902.963 272.11C878.635 145.431 764.299 55.7178 636.547 73.5796Z" fill="#6551E0"/></svg>
+    </section>
+
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500&display=swap&text=static-form" rel="stylesheet">
+
+    <!-- pricing -->
+    <section class="slide whiteSlide autoHeight" data-name="price">
+        <div class="content">
+            <div class="container">
+                <div class="wrap left padding-bottom-4">
+                    <div class="fix-12-12">
+
+                        <div class="flex noSpaces">
+                            <div class="toCenter col-desktop-4-5 col-tablet-4-5 col-phablet-4-5 col-phone-1-1">
+                                <div class="align-center">
+                                    <h1 class="boldest larger margin-bottom-2 bold">Purchase</h1>
+                                    <p class="large fix-7-12 toCenter margin-bottom-0">Start using static.app as a hosting for your websites today to get the best features to buck ratio on the&nbsp;market.</p>
+
+                                    <div class="checkbox disableSelect margin-top-5 margin-bottom-6 inlineBlock">
+                                        <label class="relative">Monthly <input class="pricing-tables__switcher shift-up-3" type="checkbox" checked="checked" name="payment-type"><span class="element"></span> Annually <div class="pros orange weight-6">Save 16%</div></label>
+                                    </div>
+                                </div>
+
+                                <!-- prices -->
+                                <ul class="flex fixedSpaces equal">
+                                    <li class="col-3-12 col-desktop-1-2 col-phablet-1-1 margin-bottom-2">
+                                        <div class="price-block bg-green padding-3 padding-phablet-4 padding-phone-2 rounded-12 large-shadow">
+                                            <p class="text-white trim margin-bottom-2">Free</p>
+                                            <h2 class="boldest text-white margin-bottom-2">$0</h2>
+                                            <ul class="flex tick equalElement trim p smallest weight-6 uppercase margin-bottom-2 text-white">
+                                                <li class="col-12-12">1 website</li>
+                                                <li class="col-12-12">50MB Storage </li>
+                                                <li class="col-12-12">Free Sub-Domain</li>
+                                                <li class="col-12-12">SSL Certificate</li>
+                                                <li class="col-12-12">7 Days Trial</li>
+                                            </ul>
+                                            <a href="https://static.app/register" class="button rounded white crop weight-6 wide autoForPhablet tablet-align-center phablet-align-left text-darkGreen">Try now for Free →</a>
+                                            <p style="margin-top:15px" class="smaller trim cropBottom text-white">No credit card required.</p>
+                                        </div>
+                                    </li>
+                                    <li class="col-3-12 col-desktop-1-2 col-phablet-1-1 margin-bottom-2">
+                                        <div class="price-block padding-3 padding-phablet-4 padding-phone-2 rounded-12 large-shadow">
+                                            <p class="trim margin-bottom-2">Starter</p>
+                                            <h2 class="boldest margin-bottom-2 flex verticalBottom">$<span data-price-per-month="6" data-price-per-year="5">5</span><p class="crop padding-bottom-1 weight-4 shift-down-2 shift-right-4">/month</p></h2>
+
+                                            <ul class="flex tick equalElement trim p smallest weight-6 uppercase margin-bottom-2">
+                                                <li class="col-12-12">1 website</li>
+                                                <li class="col-12-12">500mb Storage</li>
+                                                <li class="col-12-12">FREE & CUSTOM domain</li>
+                                                <li class="col-12-12">SSL CERTIFICATE</li>
+                                                <li class="col-12-12">Unlimited Traffic</li>
+                                            </ul>
+
+                                            <a href="/checkout/starter?cycle=annually" data-annual-link="/checkout/starter?cycle=annually" data-monthly-link="/checkout/starter?cycle=monthly" class="button green rounded crop weight-6 wide autoForPhablet tablet-align-center phablet-align-left">Proceed with Starter</a>
+                                           <p style="margin-top:15px" class="smaller trim cropBottom opacity-5">$<span data-price-per-month="72" data-price-per-year="60">60</span> <span data-text-per-month="per year. Billed monthly." data-text-per-year="billed annually. Save $12.">billed annually. Save $12.</span></p>
+                                        </div>
+                                    </li>
+                                    <li class="col-3-12 col-desktop-1-2 col-phablet-1-1 margin-bottom-2">
+                                        <div class="price-block padding-3 padding-phablet-4 padding-phone-2 rounded-12 large-shadow">
+                                            <p class="trim margin-bottom-2">Medium</p>
+                                            <h2 class="boldest margin-bottom-2 flex verticalBottom">$<span data-price-per-month="12" data-price-per-year="10">10</span><p class="crop padding-bottom-1 weight-4 shift-down-2 shift-right-4">/month</p></h2>
+
+                                            <ul class="flex tick equalElement trim p smallest weight-6 uppercase margin-bottom-2">
+                                                <li class="col-12-12">3 websites</li>
+                                                <li class="col-12-12">1gb storage </li>
+                                                <li class="col-12-12">FREE & CUSTOM domain</li>
+                                                <li class="col-12-12">SSL CERTIFICATE</li>
+                                                <li class="col-12-12">Unlimited Traffic</li>
+                                            </ul>
+
+                                            <a href="/checkout/medium?cycle=annually" data-annual-link="/checkout/medium?cycle=annually" data-monthly-link="/checkout/medium?cycle=monthly" class="button green rounded crop weight-6 wide autoForPhablet tablet-align-center phablet-align-left">Proceed with Medium</a>
+                                            <p style="margin-top:15px" class="smaller trim cropBottom opacity-5">$<span data-price-per-month="144" data-price-per-year="120">120</span> <span data-text-per-month="per year. Billed monthly." data-text-per-year="billed annually. Save $24.">billed annually. Save $24.</span></p>
+                                        </div>
+                                    </li>
+                                    <li class="col-3-12 col-desktop-1-2 col-phablet-1-1 margin-bottom-2">
+                                        <div class="price-block padding-3 padding-phablet-4 padding-phone-2 rounded-12 large-shadow">
+                                            <p class="trim margin-bottom-2">Large</p>
+                                            <h2 class="boldest margin-bottom-2 flex verticalBottom">$<span data-price-per-month="18" data-price-per-year="15">15</span><p class="crop padding-bottom-1 weight-4 shift-down-2 shift-right-4">/month</p></h2>
+
+                                            <ul class="flex tick equalElements trim p smallest weight-6 uppercase margin-bottom-2">
+                                                <li class="col-12-12">100 websites</li>
+                                                <li class="col-12-12">10gb storage</li>
+                                                <li class="col-12-12">FREE & CUSTOM domain</li>
+                                                <li class="col-12-12">SSL CERTIFICATE</li>
+                                                <li class="col-12-12">Unlimited Traffic</li>
+                                            </ul>
+
+                                            <a href="/checkout/large?cycle=annually" data-annual-link="/checkout/large?cycle=annually" data-monthly-link="/checkout/large?cycle=monthly" class="button green rounded crop weight-6 wide autoForPhablet tablet-align-center phablet-align-left">Proceed with Large</a>
+                                            <p style="margin-top:15px" class="smaller trim cropBottom opacity-5">$<span data-price-per-month="216" data-price-per-year="180">180</span> <span data-text-per-month="per year. Billed monthly." data-text-per-year="billed annually. Save $36.">billed annually. Save $36.</span></p>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- try now -->
+                    <div class="fix-12-12 relative padding-top-tablet-5 margin-top-15 padding-bottom-tablet-5 padding-bottom-10 padding-top-10 align-center">
+                        <h2 class="boldest margin-bottom-4 z-index-3 bold">Try it now!</h2>
+                        <div class="fix-12-12 flex justify-center verticalCenter margin-bottom-4 z-index-3">
+                            <p class="larger col-8-12 crop z-index-3">Get started with the simpliest static page hosting ever by uploading your project or <span class="text-green weight-6 dnd-highlight nobr">drag-n-drop</span> wherever you want.</p>
+                        </div>
+                        <a class="button green rounded crop z-index-3 js-upload-archive">
+                            <svg width="20" height="18" class="margin-right-1">
+                                <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#upload"></use>
+                            </svg>Upload .zip</a>
+                            
+
+                            <svg class="absolute large-bg-img hideForPhablet" width="1032" height="381" viewBox="0 0 1032 381" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M704.379 357.395L703.523 352.468L700.09 355.791L704.379 357.395Z" fill="#1D1D1D"/> <path d="M730.613 362.09C704.453 350.96 703.62 325.82 703.62 325.82L681.38 343.724C681.38 343.724 692.63 370.269 711.452 379.692L730.613 362.09Z" stroke="black" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/> <path d="M702.55 361.104C705.48 361.157 707.903 358.565 707.961 355.314C708.02 352.064 705.693 349.385 702.763 349.332C699.833 349.279 697.41 351.871 697.351 355.122C697.292 358.373 699.62 361.051 702.55 361.104Z" stroke="black" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/> <path d="M900.539 75.8211L880.983 55.7341L875.005 84.5382L900.539 75.8211Z" stroke="black" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/> <path d="M945.459 79.9902L933.247 67.3884L927.354 96.2872L943.239 90.7917" stroke="black" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/> <path d="M966.808 91.3601L947.252 71.2732L941.359 100.077L966.808 91.3601Z" stroke="black" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/> <path d="M222.087 368.451C221.895 368.913 221.446 369.203 220.868 369.145C220.291 369.087 219.777 368.624 219.777 368.104C219.264 365.443 218.109 362.956 216.376 360.816C213.617 357.403 209.702 354.916 205.21 353.76L200.525 352.603L199.434 356.304C199.37 356.536 199.178 356.709 198.921 356.825C198.729 356.941 198.472 356.941 198.215 356.883C197.959 356.825 197.766 356.709 197.638 356.536L189.937 344.505C189.68 344.1 189.809 343.58 190.322 343.291L203.67 336.408C204.119 336.176 204.761 336.35 205.018 336.755C205.146 336.928 205.146 337.16 205.082 337.391L203.991 341.093L205.916 341.555C212.911 343.348 218.558 347.918 221.382 353.933C223.307 358.56 223.628 363.708 222.087 368.451Z" stroke="black" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/> <path d="M30.1658 73.6529C36.4716 65.7121 47.383 61.5385 57.513 64.157C68.3368 66.9549 74.6986 76.6242 73.4044 87.0384" stroke="black" stroke-linecap="round" stroke-linejoin="round"/> <path d="M69.669 85.4134L72.008 92.2019L77.2358 86.3386L69.669 85.4134Z" fill="#1D1D1D"/> <path d="M66.4791 100.93C60.0185 107.653 50.1569 110.846 40.8595 108.443C30.0356 105.645 23.6739 95.9757 24.9681 85.5614" stroke="black" stroke-linecap="round" stroke-linejoin="round"/> <path d="M28.6992 87.1886L26.3604 80.4L21.1326 86.2634L28.6992 87.1886Z" fill="#1D1D1D"/> <path d="M217.528 71.5073C219.539 72.2387 221.225 72.8522 222.136 73.183C226.142 74.6403 231.065 72.8844 233.132 69.2618C235.088 65.8315 233.778 61.9614 230.233 60.3222C232.408 55.8323 230.359 50.911 225.441 49.1226C220.315 47.2581 214.016 49.5046 211.372 54.1397C211.01 54.775 210.738 55.4225 210.547 56.0713C210.286 55.9322 210.017 55.8029 209.724 55.6968C206.443 54.5037 202.412 55.9414 200.72 58.908C199.028 61.8746 200.316 65.2472 203.597 66.4403C204.52 66.776 206.245 67.4036 208.297 68.1494" stroke="#333333" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/> <path d="M218.155 61.7896L211.998 72.585" stroke="#333333" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/> <path d="M211.428 63.8335L218.393 61.3497L220.582 67.0806" stroke="#333333" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/> <path d="M556.809 19.7321L576.729 4.36908" stroke="black" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/> <path d="M573.693 23.2361L559.847 1" stroke="black" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/> <path opacity="0.12" d="M95.173 177.79C67.0631 170.552 29.0164 190.891 14.893 215.364C0.769705 239.837 -8.646 314.739 16.3798 341.684C49.9989 377.881 145.131 368.33 162.236 340.898C179.341 313.466 185.755 296.585 188.962 265.988C192.169 235.391 187.396 206.605 154.752 198.464C122.109 190.322 123.283 185.027 95.173 177.79Z" fill="#29A3A3"/> </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <svg class="background"  viewBox="0 0 1309 1313" fill="none" xmlns="http://www.w3.org/2000/svg"><path opacity="0.34" d="M812.82 1.80373C882.154 8.93182 948.498 17.9354 1009.88 27.6243C1191.44 56.2802 1342.54 300.378 1301.19 479.467L1154.93 1112.93C1122.72 1252.42 983.098 1339.02 843.823 1305.88L199.099 1152.46C59.2722 1119.19 -26.4054 978.07 8.58362 838.664L11.8662 825.585C30.0548 753.116 78.7668 692.092 145.403 658.295L219.006 620.964C261.504 599.41 297.202 566.507 322.143 525.903L409 384.5L582.318 115.84C632.518 38.0257 720.704 -7.66648 812.82 1.80373Z" fill="#DFF8E9"/></svg>
+    </section>
+
+    <!-- Popup Youtube -->
+    <div class="popup autoplay" data-popup-id="video">
+      <div class="close"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#close"></use></svg></div>
+      <div class="content">
+        <div class="container">
+          <div class="wrap">
+            <div class="fix-12-12">
+              <div class="embedVideo popupContent">
+                <iframe src="https://www.youtube.com/embed/1siRN0amOx4" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- what's static website? -->
+    <div class="dropdown top left customDropdown text-white padding-2 padding-left-3 padding-right-3 align-left crop rounded" data-dropdown-id="description-dropdown">
+        <p class="crop weight-6 padding-bottom-1 large shift-down-2 shift-left-1">So what is a “static” website?</p>
+        <p class="crop weight-4 small padding-bottom-1">Static sites are the most basic type of website and are the easiest to create. Unlike dynamic websites, they do not require any web programming or database&nbsp;design.</p>
+        <p class="crop weight-4 small padding-bottom-1">A static web page delivered to the user's web browser exactly as stored, in contrast to dynamic web pages which are generated by a web&nbsp;application.</p>
+        <p class="crop weight-4 small">Create free static pages using <a target="_blank" href="https://designmodo.com/slides/" class="weight-6 underline">Slides</a> and <a target="_blank" href="https://designmodo.com/startup/" class="weight-6 underline">Startup</a>.</p>
+    </div>
+
+
+
+<div id="error-message"></div>
+
+<!--- START: Black Friday 2022 Code -->
+<link href="/css/bf-banner-2022.css" rel="stylesheet" type="text/css">
+<script>
+  document.addEventListener('DOMContentLoaded', (event) => {
+      document.querySelector('.bf-bubble-2022 .close-bf-bubble-2022').addEventListener('click', function () {
+          document.querySelector('.bf-bubble-2022').classList.add("hide-bubble");
+      });
+
+      setInterval(function(){
+          var menu = document.querySelector('.bf-bubble-2022') // Using a class instead, see note below.
+          menu.classList.toggle('stage-2');
+      },4000);
+  });
+</script>
+
+<div class="fixed bf-bubble-2022">
+    <div class="bf-bubble-2022-content">
+        <div class="bf-bubble-2022-text relative">Black Friday&nbsp; →<br><span class="bf-bubble-2022-space">&nbsp; </span><span style="color: #F065CB">Pay 30% Less</span><a href="/checkout/" class="absolute"></a></div>
+        <div class="close-bf-bubble-2022 margin-left-1 pointer"><svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0.5 0.5L15.5 15.5" stroke="white" stroke-linecap="round"/><path d="M15.5 0.5L0.5 15.5" stroke="white" stroke-linecap="round"/></svg></div>
+    </div>
+    <div class="bf-bubble-2022-content stage-2-content">
+        <div class="bf-bubble-2022-text relative">Use Coupon&nbsp; →<br><span class="bf-bubble-2022-space">&nbsp; </span><span style="color: #F065CB">BLACK22</span><a href="/checkout/" class="absolute"></a></div>
+        <div class="close-bf-bubble-2022 margin-left-1 pointer"><svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0.5 0.5L15.5 15.5" stroke="white" stroke-linecap="round"/><path d="M15.5 0.5L0.5 15.5" stroke="white" stroke-linecap="round"/></svg></div>
+    </div>
+    <div class="bf-bubble-2022-background">
+        <svg width="350" height="60" viewBox="0 0 350 60" fill="none" xmlns="http://www.w3.org/2000/svg"> <circle opacity="0.5" r="0.756855" transform="matrix(1 0 0 -1 327.354 34.2264)" fill="white"/> <circle opacity="0.5" r="0.378428" transform="matrix(1 0 0 -1 200.581 0.546377)" fill="white"/> <circle opacity="0.5" r="0.378428" transform="matrix(1 0 0 -1 217.989 37.6323)" fill="white"/> <circle opacity="0.5" r="0.378428" transform="matrix(1 0 0 -1 45.4253 44.444)" fill="white"/> <circle opacity="0.5" r="0.378428" transform="matrix(1 0 0 -1 234.639 49.742)" fill="white"/> <circle opacity="0.5" r="0.378428" transform="matrix(1 0 0 -1 302.756 25.5226)" fill="white"/> <circle opacity="0.5" r="0.378428" transform="matrix(1 0 0 -1 201.338 32.3342)" fill="white"/> <circle opacity="0.5" r="0.378428" transform="matrix(1 0 0 -1 269.455 8.11489)" fill="white"/> <circle opacity="0.5" r="1.13528" transform="matrix(1 0 0 -1 39.3716 17.1972)" fill="white"/> <circle opacity="0.5" r="1.13528" transform="matrix(1 0 0 -1 309.568 49.7419)" fill="white"/> <circle opacity="0.5" r="1.13528" transform="matrix(1 0 0 -1 172.577 18.7109)" fill="white"/> <circle opacity="0.5" r="1.13528" transform="matrix(1 0 0 -1 239.938 49.7419)" fill="white"/> <circle opacity="0.5" r="1.13528" transform="matrix(1 0 0 -1 309.568 59.581)" fill="white"/> <circle opacity="0.5" r="1.13528" transform="matrix(1 0 0 -1 328.49 39.9029)" fill="white"/> <circle opacity="0.5" r="1.13528" transform="matrix(1 0 0 -1 184.687 49.7419)" fill="white"/> <circle opacity="0.5" r="1.13528" transform="matrix(1 0 0 -1 272.482 11.1423)" fill="white"/> <circle opacity="0.5" r="1.13528" transform="matrix(1 0 0 -1 14.395 30.0637)" fill="white"/> <circle opacity="0.5" r="0.756855" transform="matrix(1 0 0 -1 291.783 18.3325)" fill="white"/></svg>
+    </div>
+</div>
+<!--- END: Black Friday 2022 Code -->
+
+<section class="slide whiteSlide autoHeight">
+  <div class="content">
+    <div class="container">
+      <div class="wrap left padding-bottom-6 tablet-align-center">
+        <div class="fix-12-12">
+          <ul class="flex">
+            <li class="col-3-12 padding-bottom-tablet-4">
+              <a href="https://static.app" class="logo vertical-top"><svg width="130" height="30"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#logo-static-dark"></use></svg></a>
+              <p class="smallest opacity-4 margin-top-2 shift-up-1 padding-right-3 padding-right-tablet-0">One-click solution for your static website. Copyright © 2019-2022. <br class="hideForPhone">All Rights Reserved.</p>
+
+              <p class="relative weight-5 font-size-13 cropBottom margin-top-2">
+                  <svg width="20" height="20" class="margin-right-1 shift-down-5"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#disignmodo"></use></svg><span class="opacity-5">Made by</span> <a target="_blank" href="https://designmodo.com" class="weight-6 link">Designmodo</a>
+              </p>
+            </li>
+            <li class="col-2-12 col-tablet-1-3 col-phone-1-2">
+              <p class="uppercase opacity-3 font-size-13 margin-bottom-2 margin-bottom-tablet-1 margin-top-tablet-4 bold margin-top-1 shift-up-2">SERVICE</p>
+              <div style="line-height: 2.25;">
+
+
+                <div id="pulsetic-badge"></div>
+                <a class="block p smaller weight-5 link" href="https://static.app/help">FAQ</a>
+                <a class="block p smaller weight-5 link" href="https://staticapp.helpscoutdocs.com/">Help Docs</a>
+                <a class="block p smaller weight-5 link" href="https://static.app/privacy">Privacy Policy</a>
+                <a class="block p smaller weight-5 link" href="https://static.app/terms">Terms of Use</a>
+              </div>
+            </li>
+            <li class="col-2-12 col-tablet-1-3 col-phone-1-2">
+              <p class="uppercase opacity-3 font-size-13 margin-bottom-2 margin-bottom-tablet-1 margin-top-tablet-4 bold margin-top-1 shift-up-2">FEATURES</p>
+              <div style="line-height: 2.25;">
+                <a class="block p smaller weight-5 link" href="https://static.app/html-file-upload">HTML File Upload</a>
+                <a class="block p smaller weight-5 link" href="https://static.app/free-website-hosting">HTML Website Hosting</a>
+                <a class="block p smaller weight-5 link" href="https://static.app/image-hosting">Free Image Hosting</a>
+                <a class="block p smaller weight-5 link" href="https://static.app/static-form">Static Website Form</a>
+                <a class="block p smaller weight-5 link" href="https://static.app/upload-pdf">Upload PDF Online</a>
+                <a class="block p smaller weight-5 link" href="https://static.app/host-zip">Free Zip File Hosting</a>
+              </div>
+            </li>
+            <li class="col-2-12 col-tablet-1-3 col-phone-1-1">
+              <p class="uppercase opacity-3 font-size-13 margin-bottom-2 margin-bottom-tablet-1 margin-top-tablet-4 bold margin-top-1 shift-up-2">ACCOUNT</p>
+                <div style="line-height: 2.25;">
+                <a class="block p smaller weight-5 link" href="https://static.app/login">Login</a>
+                <a class="block p smaller weight-5 link" href="https://static.app/register">Sign up</a>
+                <a class="block p smaller weight-5 link" href="https://static.app/login#reset-password">Reset Password</a>
+                <a class="block p smaller weight-5 link" onclick="Beacon('open');">Support</a>
+              </div>
+            </li>
+            <li class="col-3-12">
+              <p class="uppercase opacity-3 font-size-13 margin-bottom-3 margin-bottom-tablet-2 bold margin-top-1 shift-up-2 padding-top-tablet-4">STAY IN TOUCH</p>
+              <div class="fix-3-12">
+                <form class="slides-form shift-up-2" id="subscribe-form" action="" method="POST">
+                  <div class="relative">
+                    <input id="subscribe-email" type="email" name="email" placeholder="Your email" class="wide">
+                    <span id="subscribe-button" class="submit absolute link pointer weight-5 text-blue text-purple-hover noSelect" type="submit">—></span>
+                  </div>
+                  <label class="crop margin-top-1">
+                      <input id="subscribe-accept" type="checkbox" name="remember" value="0" class="crop shift-down-2">
+                      <span class="p opacity-5 smallest shift-right-5">I&nbsp;accept <a href="https://static.app/privacy" target="_blank" class="underline" tabindex="-1">Privacy Policy</a></span>
+                  </label>
+                </form>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Pulsetic Badge -->
+<style type="text/css">
+  #pulsetic-badge { font-size: 0; }
+  #pulsetic-badge a > div { display: inline-flex !important; min-height: 0 !important; }
+  #pulsetic-badge a > div > div { font-weight: inherit !important; font-size: inherit !important;}
+  #pulsetic-badge a > div > div:nth-child(1) { color: inherit !important;font-weight: 500 !important; font-size: 14px !important; }
+  #pulsetic-badge a > div > div:nth-child(2) { border-radius: 4px !important; min-height: inherit !important;}
+  #pulsetic-badge a > div > div:nth-child(2) > div { font-weight: 400 !important; font-size: 12px !important; line-height: 1.7; }
+  #pulsetic-badge a > .badge-body { padding: 3px 9px !important; margin: -2px 0 -2px 7px !important; }
+  #pulsetic-badge a > .badge-body > div:nth-child(1) svg path { fill: #93d6b0 !important; }
+</style>
+<script src="https://cdn.pulsetic.com/index.js" async></script>
+<script>
+    window.onload = function () {
+    Pulsetic.init({
+      monitor_id: 3498,
+      element_id: "pulsetic-badge"
+});
+}
+</script>
+
+<!-- Cookie Policy -->
+<div class="dialogContainer left bottom">
+    <div class="dialog rounded" data-dialog-action="open" data-dialog-open-delay="500" data-dialog-id="accept-cookies" style="width: 300px;">
+      <div class="close" data-dialog-action="close"></div>
+      <div class="dialogContent">
+        <span class="avatar" style="font-size:43px;line-height:47px">🍪</span>
+        <p class="p crop padding-left-6">By using this website, you agree to our <a href="/privacy" class="underline link">privacy policy</a>.</p>
+      </div>
+      <ul>
+        <li class="link p" data-dialog-action="hide">Decline</li>
+        <li class="link p text-green" data-dialog-action="close" onclick="$.cookie('accept-cookies',true,{expires:365,path:'/'});">I Agree</li>
+      </ul>
+    </div>
+</div>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-168374826-1"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-168374826-1');
+</script>
+
+<script type="text/javascript">!function(e,t,n){function a(){var e=t.getElementsByTagName("script")[0],n=t.createElement("script");n.type="text/javascript",n.async=!0,n.src="https://beacon-v2.helpscout.net",e.parentNode.insertBefore(n,e)}if(e.Beacon=n=function(t,n,a){e.Beacon.readyQueue.push({method:t,options:n,data:a})},n.readyQueue=[],"complete"===t.readyState)return a();e.attachEvent?e.attachEvent("onload",a):e.addEventListener("load",a,!1)}(window,document,window.Beacon||function(){});</script>
+<script type="text/javascript">window.Beacon('init', '195d30eb-b625-4312-8d28-3c7eedfb90bb')</script>
+
+<script>(function(w){w.fpr=w.fpr||function(){w.fpr.q = w.fpr.q||[];w.fpr.q[arguments[0]=='set'?'unshift':'push'](arguments);};})(window);
+    fpr("init", {cid:"szeonu2b"});
+    fpr("click");
+</script>
+<script src="https://cdn.firstpromoter.com/fpr.js" async></script>
+
+<link href="/landing/css/dm-short-menu.css?1669429643" rel="stylesheet" type="text/css">
+<div class="dm-short-menu">
+    <div class="circle">
+      <svg class="dm-short-menu-logo" width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="30" cy="30" r="28" fill="white"></circle><path d="M20 32.24C22.8498 32.24 25.16 29.9298 25.16 27.08C25.16 24.2302 22.8498 21.92 20 21.92C17.1502 21.92 14.84 24.2302 14.84 27.08C14.84 29.9298 17.1502 32.24 20 32.24Z" fill="#219653"></path><path d="M30 0C13.44 0 0 13.44 0 30C0 46.56 13.44 60 30 60C46.56 60 60 46.56 60 30C60 13.44 46.56 0 30 0ZM9.4 27.12C9.4 21.28 14.16 16.52 20 16.52C25.84 16.52 30.6 21.28 30.6 27.12C30.6 32.96 25.84 37.72 20 37.72C14.16 37.72 9.4 32.96 9.4 27.12ZM31.36 48.52C28.04 48.52 24.84 47.6 22.04 45.84L24.8 41.4C26.76 42.64 29.04 43.28 31.36 43.28C33.68 43.28 35.96 42.64 37.88 41.4L40.64 45.84C37.88 47.6 34.64 48.52 31.36 48.52ZM35.72 29.72V24.48H51.8V29.72H35.72Z" fill="#219653"></path></svg>
+    </div>
+    <div class="dm-short-menu-window">
+        <span class="nobr">Hey there 👋 &nbsp;Friends</span> from <a href="https://designmodo.com" class="link-hover inline" target="_blank">designmodo</a> are here to help!
+        <div class="link-box">
+            <a href="https://designmodo.com/products/" class="dm-short-menu-link" target="_blank">More Products</a>
+            <a class="dm-short-menu-link" onclick="Beacon('open');">Start a Chat...</a>
+        </div>
+    </div>
+    <span class="dm-short-menu-badge"></span>
+</div><div class="dialogContainer bottom" style="z-index: 100000;">
+        
+        
+        <div class="dialog rounded margin-1 hidden" data-dialog-id="popup-dialog-success" data-dialog-close-delay="7000">
+            <div class="close" data-dialog-action="close"></div>
+            <div class="dialogContent" data-dialog-action="close">
+                <div id="popup-dialog-text" class="text">
+                    <h4 class="smallest text-green">Good job</h4>
+                    <p class="small opacity-8" id="popup-dialog-success-text"></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="dialog rounded margin-1 hidden" data-dialog-id="popup-dialog-error">
+            <div class="close" data-dialog-action="close"></div>
+            <div class="dialogContent" data-dialog-action="close">
+                <div id="popup-dialog-text" class="text">
+                    <h4 class="smallest text-orange">Oopsies! 🙀</h4>
+                    <p class="small opacity-8" id="popup-dialog-error-text"></p>
+                </div>
+            </div>
+            <div class="hiddenContent empty">
+                <ul>
+                    <li data-dialog-action="close">Close</li>
+                    <li onclick="window.showChatWindow()" class="blue text-white">Help</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="dialog rounded margin-1 hidden" data-dialog-id="popup-dialog-checkout-error">
+            <div class="close" data-dialog-action="close"></div>
+            <div class="dialogContent" data-dialog-action="close">
+                <div id="popup-dialog-text" class="text">
+                    <h4 class="smallest text-orange">Oopsies! 🙀</h4>
+                    <p class="small opacity-8" id="popup-dialog-checkout-error-text"></p>
+                </div>
+            </div>
+            <div class="hiddenContent empty">
+                <ul>
+                    <li data-dialog-action="close">Close</li>
+                    <li data-popup-id="login" class="blue text-white popupTrigger">Login</li>
+                </ul>
+            </div>
+        </div>
+
+</div>
+
+
+
+
+
+</body>
+</html>
